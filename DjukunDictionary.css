@@ -1,0 +1,158 @@
+﻿.letHead{
+	-moz-column-count:1;
+	-webkit-column-count:1;
+	column-count:1;
+	clear:both;
+	width:100%;
+	text-align:center;
+	text-indent:-12pt;
+	margin-left:21pt;
+	flex-line-height:12pt;
+	line-height:12pt;
+	padding-bottom:3pt;
+	padding-top:12pt;
+}
+body{
+	font-size:10pt;
+}
+span[lang='en']{
+	font-family:'Times New Roman',serif;
+	font-size:10pt;
+}
+span[lang='dyd']{
+	font-family:'Charis SIL',serif;
+	font-size:10pt;
+}
+span[lang='dyd-fonipa']{
+	font-family:'Charis SIL',serif;
+	font-size:10pt;
+}
+span[lang='dyd-Zxxx-x-audio']{
+	font-family:'Charis SIL',serif;
+	font-size:10pt;
+}
+.letter[lang='en']{
+	font-size:14pt;
+	font-weight:bold;
+}
+.letter[lang='dyd']{
+	font-size:14pt;
+	font-weight:bold;
+}
+.letter[lang='dyd-fonipa']{
+	font-size:14pt;
+	font-weight:bold;
+}
+.letter[lang='dyd-Zxxx-x-audio']{
+	font-size:14pt;
+	font-weight:bold;
+}
+a{
+	text-decoration:inherit;
+	color:inherit;
+}
+*[dir='ltr'], *[dir='rtl']{
+	unicode-bidi:isolate;
+	unicode-bidi:-ms-isolate;
+	unicode-bidi:-moz-isolate;
+}
+a.dyd-Zxxx-x-audio:after{
+	content:'🔊';
+}
+a.dyd-Zxxx-x-audio{
+	text-decoration:none;
+}
+.entry{
+	clear:both;
+	white-space:pre-wrap;
+}
+.entry{
+	text-indent:-12pt;
+	margin-left:21pt;
+	flex-line-height:12pt;
+	line-height:12pt;
+	padding-bottom:2pt;
+	padding-top:1pt;
+	font-size:10pt;
+}
+.entry span[lang='en']{
+	font-size:10pt;
+}
+.entry span[lang='dyd']{
+	font-size:10pt;
+}
+.entry span[lang='dyd-fonipa']{
+	font-size:10pt;
+}
+.entry span[lang='dyd-Zxxx-x-audio']{
+	font-size:10pt;
+}
+.entry .mainheadword> .mainheadwor+ .mainheadwor:before{
+	content:' ';
+}
+.entry .mainheadword> span:last-child:after{
+	content:' ';
+}
+.entry .mainheadword> span[lang='dyd']{
+	font-weight:bold;
+}
+.entry .mainheadword> span{
+	font-weight:bold;
+}
+.entry .mainheadword> span span[lang='en']{
+	font-weight:bold;
+}
+.entry .mainheadword> span span[lang='dyd']{
+	font-weight:bold;
+}
+.entry .mainheadword> span span[lang='dyd-fonipa']{
+	font-weight:bold;
+}
+.entry .mainheadword> span span[lang='dyd-Zxxx-x-audio']{
+	font-weight:bold;
+}
+.entry .senses>  span.sensecontent +  span:before{
+	content:'  ';
+}
+.entry .senses:before{
+	content:' ';
+}
+.entry .senses:after{
+	content:'  ';
+}
+.entry .senses > .sensecontent .sensenumber{
+	font-weight:bold;
+}
+.entry .senses > .sensecontent .sensenumber:after{
+	content:') ';
+}
+.entry .senses .definitionorgloss> .definitionorglos+ .definitionorglos:before{
+	content:' ';
+}
+.entry .senses .morphosyntaxanalysis:after{
+	content:'  ';
+}
+.entry .senses .morphosyntaxanalysis{
+	font-style:italic;
+}
+.entry .senses .morphosyntaxanalysis span[lang='en']{
+	font-style:italic;
+}
+.entry .senses .morphosyntaxanalysis span[lang='dyd']{
+	font-style:italic;
+}
+.entry .senses .morphosyntaxanalysis span[lang='dyd-fonipa']{
+	font-style:italic;
+}
+.entry .senses .morphosyntaxanalysis span[lang='dyd-Zxxx-x-audio']{
+	font-style:italic;
+}
+.entry .senses .morphosyntaxanalysis .partofspeech> .partofspeec+ .partofspeec:before{
+	content:' ';
+}
+.entry .senses .morphosyntaxanalysis .morphtypes> .morphtype> .morphtype+ .morphtype:before{
+	content:' ';
+}
+.entry .senses .morphosyntaxanalysis .morphtypes:before{
+	content:' ';
+}
